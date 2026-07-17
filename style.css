@@ -1,0 +1,1268 @@
+/*=========================================
+DESTINED FOR GREATNESS LLC
+WORK FROM HOME ACADEMY
+GLOBAL STYLES
+=========================================*/
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
+body{
+
+    font-family:Arial,Helvetica,sans-serif;
+    background:#f4f6fb;
+    color:#222;
+    line-height:1.7;
+
+}
+
+/*=========================================
+HEADINGS
+=========================================*/
+
+h1,h2,h3,h4{
+
+    color:#0c2d6b;
+    margin-bottom:15px;
+    font-weight:700;
+
+}
+
+h1{
+
+    font-size:38px;
+
+}
+
+h2{
+
+    font-size:30px;
+
+}
+
+h3{
+
+    font-size:24px;
+
+}
+
+h4{
+
+    font-size:20px;
+
+}
+
+p{
+
+    margin-bottom:18px;
+
+}
+
+/*=========================================
+MODULES
+=========================================*/
+
+.academy-section{
+
+    width:95%;
+    max-width:1200px;
+    margin:40px auto;
+    background:#fff;
+    border-radius:16px;
+    padding:40px;
+    box-shadow:0 8px 24px rgba(0,0,0,.10);
+
+}
+
+.module-title{
+
+    text-align:center;
+    font-size:42px;
+    color:#0d47a1;
+
+}
+
+.module-subtitle{
+
+    text-align:center;
+    color:#b8860b;
+    margin-bottom:25px;
+
+}
+
+.module-overview{
+
+    background:#eef4ff;
+    border-left:8px solid #0d47a1;
+    padding:25px;
+    border-radius:10px;
+
+}
+
+/*=========================================
+LESSONS
+=========================================*/
+
+.lesson{
+
+    width:95%;
+    max-width:1200px;
+    margin:35px auto;
+    background:#fff;
+    border-radius:15px;
+    padding:35px;
+    box-shadow:0 8px 20px rgba(0,0,0,.10);
+
+}
+
+.lesson h2{
+
+    text-align:center;
+    color:#0d47a1;
+
+}
+
+.lesson-summary{
+
+    margin-top:30px;
+
+}
+
+.lesson-summary h3{
+
+    color:#b8860b;
+
+}
+
+.key-takeaway{
+
+    margin-top:25px;
+    background:#f8f9ff;
+    border-left:6px solid #0d47a1;
+    padding:20px;
+    border-radius:10px;
+    font-weight:bold;
+
+}
+
+/*=========================================
+VIDEOS
+=========================================*/
+
+.video-wrapper{
+
+    margin:30px auto;
+    border-radius:15px;
+    overflow:hidden;
+    box-shadow:0 5px 18px rgba(0,0,0,.15);
+
+}
+
+.video-wrapper iframe{
+
+    width:100%;
+    height:600px;
+    border:none;
+
+}
+
+/*=========================================
+IMAGES
+=========================================*/
+
+.lesson-image{
+
+    text-align:center;
+    margin:30px 0;
+
+}
+
+.lesson-image img{
+
+    width:100%;
+    max-width:900px;
+    border-radius:15px;
+    box-shadow:0 5px 20px rgba(0,0,0,.15);
+
+}
+
+/*=========================================
+BUTTONS
+=========================================*/
+
+button{
+
+    cursor:pointer;
+    transition:.3s;
+
+}
+
+.btn-next,
+.btn-previous,
+.submit-quiz,
+.complete-lesson,
+.print-certificate,
+.download-certificate,
+.academy-home{
+
+    background:#0d47a1;
+    color:#fff;
+    border:none;
+    padding:16px 35px;
+    border-radius:8px;
+    font-size:17px;
+    font-weight:bold;
+    margin:10px;
+
+}
+
+.btn-next:hover,
+.btn-previous:hover,
+.submit-quiz:hover,
+.complete-lesson:hover,
+.print-certificate:hover,
+.download-certificate:hover,
+.academy-home:hover{
+
+    background:#b8860b;
+
+}
+
+/*=========================================
+NAVIGATION
+=========================================*/
+
+.lesson-navigation{
+
+    display:flex;
+    justify-content:space-between;
+    flex-wrap:wrap;
+    margin-top:40px;
+
+}
+
+/*=========================================
+INFORMATION BOXES
+=========================================*/
+
+.lesson-information{
+
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:20px;
+    margin:30px 0;
+
+}
+
+.lesson-card{
+
+    background:#eef4ff;
+    padding:20px;
+    border-radius:10px;
+    text-align:center;
+    box-shadow:0 3px 12px rgba(0,0,0,.08);
+
+}
+
+.training-reminder,
+.learning-objectives,
+.exam-reminder,
+.next-steps,
+.academy-success-tip,
+.module-complete,
+.academy-closing-message{
+
+    width:95%;
+    max-width:1200px;
+    margin:35px auto;
+    background:white;
+    border-left:8px solid #b8860b;
+    padding:30px;
+    border-radius:12px;
+    box-shadow:0 6px 18px rgba(0,0,0,.08);
+
+}
+/*=========================================
+QUIZ SECTIONS
+=========================================*/
+
+.quiz-section{
+
+    width:95%;
+    max-width:1200px;
+    margin:40px auto;
+    background:#ffffff;
+    padding:40px;
+    border-radius:15px;
+    box-shadow:0 8px 20px rgba(0,0,0,.10);
+
+}
+
+.quiz-section h2{
+
+    text-align:center;
+    color:#0d47a1;
+    margin-bottom:15px;
+
+}
+
+.quiz-intro{
+
+    text-align:center;
+    font-size:18px;
+    color:#555;
+    margin-bottom:35px;
+
+}
+
+/*=========================================
+QUESTIONS
+=========================================*/
+
+.quiz-question{
+
+    margin-bottom:40px;
+    padding:25px;
+    background:#f8f9fc;
+    border-left:6px solid #0d47a1;
+    border-radius:10px;
+
+}
+
+.quiz-question h3{
+
+    margin-bottom:20px;
+    color:#0d47a1;
+    font-size:22px;
+
+}
+
+.quiz-question label{
+
+    display:block;
+    margin:12px 0;
+    padding:15px;
+    border-radius:8px;
+    background:#ffffff;
+    cursor:pointer;
+    transition:.25s;
+    border:1px solid #ddd;
+
+}
+
+.quiz-question label:hover{
+
+    background:#eef4ff;
+    border-color:#0d47a1;
+
+}
+
+.quiz-question input[type="radio"]{
+
+    margin-right:10px;
+    transform:scale(1.2);
+
+}
+
+/*=========================================
+CHECKLISTS
+=========================================*/
+
+.lesson-checklist{
+
+    width:95%;
+    max-width:1200px;
+    margin:35px auto;
+    background:#fff;
+    padding:30px;
+    border-radius:12px;
+    box-shadow:0 5px 15px rgba(0,0,0,.08);
+
+}
+
+.lesson-checklist h3{
+
+    margin-bottom:20px;
+    color:#0d47a1;
+
+}
+
+.lesson-checklist label{
+
+    display:block;
+    margin:15px 0;
+    font-size:18px;
+
+}
+
+.lesson-checklist input{
+
+    margin-right:12px;
+    transform:scale(1.3);
+
+}
+
+/*=========================================
+VIDEO CONFIRMATION
+=========================================*/
+
+.video-complete{
+
+    width:95%;
+    max-width:1200px;
+    margin:20px auto;
+    background:#eef4ff;
+    padding:18px;
+    border-radius:10px;
+    text-align:center;
+
+}
+
+.video-complete label{
+
+    font-size:18px;
+    font-weight:bold;
+
+}
+
+.video-complete input{
+
+    margin-right:10px;
+    transform:scale(1.3);
+
+}
+
+/*=========================================
+LESSON COMPLETE
+=========================================*/
+
+.lesson-complete-section{
+
+    width:95%;
+    max-width:1200px;
+    margin:35px auto;
+    background:#fff;
+    text-align:center;
+    padding:30px;
+    border-radius:12px;
+    box-shadow:0 5px 15px rgba(0,0,0,.08);
+
+}
+
+.lesson-complete-message{
+
+    margin-top:15px;
+    color:#666;
+
+}
+
+/*=========================================
+LOCK MESSAGE
+=========================================*/
+
+.final-lock-message{
+
+    width:95%;
+    max-width:1200px;
+    margin:35px auto;
+    background:#fff8e5;
+    color:#8a6d00;
+    border-left:6px solid #f1b400;
+    padding:25px;
+    border-radius:10px;
+    font-size:18px;
+    font-weight:bold;
+
+}
+
+/*=========================================
+STATUS
+=========================================*/
+
+.certificate-status{
+
+    width:95%;
+    max-width:1200px;
+    margin:35px auto;
+    background:#e8f9ef;
+    color:#1b5e20;
+    border-left:6px solid #28a745;
+    padding:25px;
+    border-radius:10px;
+    font-size:20px;
+    text-align:center;
+    font-weight:bold;
+
+}
+
+/*=========================================
+RESULT BOXES
+=========================================*/
+
+.success-box{
+
+    background:#e8f9ef;
+    border-left:8px solid #28a745;
+    padding:30px;
+    border-radius:10px;
+    margin:30px 0;
+
+}
+
+.warning-box{
+
+    background:#fff5e5;
+    border-left:8px solid #f0ad4e;
+    padding:30px;
+    border-radius:10px;
+    margin:30px 0;
+
+}
+
+.error-box{
+
+    background:#ffe8e8;
+    border-left:8px solid #dc3545;
+    padding:30px;
+    border-radius:10px;
+    margin:30px 0;
+
+}
+
+/*=========================================
+RESULTS CARD
+=========================================*/
+
+.results-card{
+
+    text-align:center;
+    background:#fff;
+    border-radius:15px;
+    padding:35px;
+    box-shadow:0 8px 20px rgba(0,0,0,.08);
+
+}
+
+.score-circle{
+
+    width:170px;
+    height:170px;
+    border-radius:50%;
+    background:#0d47a1;
+    color:white;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size:32px;
+    font-weight:bold;
+    margin:25px auto;
+
+}
+
+/*=========================================
+LISTS
+=========================================*/
+
+.learning-objectives ul,
+.next-steps ul,
+.graduate-awards ul{
+
+    margin-left:25px;
+
+}
+
+.learning-objectives li,
+.next-steps li,
+.graduate-awards li{
+
+    margin:12px 0;
+    font-size:18px;
+
+}
+/*=========================================
+CERTIFICATE PAGE
+=========================================*/
+
+.certificate-page{
+
+    width:95%;
+    max-width:1300px;
+    margin:50px auto;
+
+}
+
+.certificate{
+
+    background:#fff;
+    border:12px solid #b8860b;
+    border-radius:18px;
+    padding:60px;
+    text-align:center;
+    box-shadow:0 10px 30px rgba(0,0,0,.15);
+
+}
+
+.certificate-header h1{
+
+    font-size:48px;
+    color:#b8860b;
+    margin-bottom:10px;
+
+}
+
+.certificate-header h2{
+
+    font-size:34px;
+    color:#0d47a1;
+
+}
+
+.certificate-header p{
+
+    font-size:20px;
+    color:#666;
+    margin-bottom:40px;
+
+}
+
+.certificate-intro{
+
+    font-size:24px;
+
+}
+
+.student-name{
+
+    margin:35px 0;
+    font-size:42px;
+    color:#0d47a1;
+    font-weight:bold;
+    border-bottom:3px solid #0d47a1;
+    display:inline-block;
+    min-width:500px;
+    padding-bottom:10px;
+
+}
+
+.academy-name{
+
+    color:#b8860b;
+    margin:35px 0;
+
+}
+
+.certificate-description{
+
+    max-width:900px;
+    margin:0 auto 35px;
+    font-size:20px;
+
+}
+
+/*=========================================
+CERTIFICATE DETAILS
+=========================================*/
+
+.certificate-details{
+
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:25px;
+    margin:40px 0;
+
+}
+
+.detail-box{
+
+    background:#eef4ff;
+    padding:25px;
+    border-radius:12px;
+    box-shadow:0 4px 12px rgba(0,0,0,.08);
+
+}
+
+/*=========================================
+SIGNATURE AREA
+=========================================*/
+
+.signature-area{
+
+    display:flex;
+    justify-content:space-between;
+    flex-wrap:wrap;
+    gap:30px;
+    margin:60px 0;
+
+}
+
+.signature{
+
+    flex:1;
+    min-width:280px;
+    text-align:center;
+    font-size:18px;
+
+}
+
+/*=========================================
+CERTIFICATE QUOTE
+=========================================*/
+
+.certificate-quote{
+
+    font-size:24px;
+    color:#666;
+    font-style:italic;
+    margin:40px auto;
+    max-width:900px;
+
+}
+
+.certificate-id{
+
+    margin-top:30px;
+    text-align:center;
+    font-size:18px;
+    color:#666;
+
+}
+
+/*=========================================
+GRADUATE DASHBOARD
+=========================================*/
+
+.graduate-dashboard{
+
+    width:95%;
+    max-width:1300px;
+    margin:50px auto;
+    background:#fff;
+    padding:50px;
+    border-radius:18px;
+    box-shadow:0 10px 30px rgba(0,0,0,.12);
+
+}
+
+.graduate-dashboard h1{
+
+    text-align:center;
+    color:#0d47a1;
+    margin-bottom:20px;
+
+}
+
+.graduate-subtitle{
+
+    text-align:center;
+    font-size:22px;
+    margin-bottom:40px;
+
+}
+
+.dashboard-grid{
+
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:25px;
+    margin-bottom:45px;
+
+}
+
+.dashboard-card{
+
+    background:#eef4ff;
+    border-radius:15px;
+    padding:30px;
+    text-align:center;
+    box-shadow:0 5px 15px rgba(0,0,0,.08);
+
+}
+
+.dashboard-card h3{
+
+    color:#0d47a1;
+    margin-bottom:15px;
+
+}
+
+.dashboard-card p{
+
+    font-size:28px;
+    font-weight:bold;
+    color:#b8860b;
+
+}
+
+.dashboard-card span{
+
+    color:#555;
+
+}
+
+/*=========================================
+GRADUATE MESSAGE
+=========================================*/
+
+.graduate-message{
+
+    background:#f8f9fc;
+    border-left:8px solid #0d47a1;
+    padding:35px;
+    border-radius:12px;
+    margin:40px 0;
+
+}
+
+.graduate-awards{
+
+    background:#eef4ff;
+    padding:35px;
+    border-radius:12px;
+    margin:40px 0;
+
+}
+
+.graduate-quote{
+
+    text-align:center;
+    font-size:28px;
+    color:#b8860b;
+    font-style:italic;
+    margin:45px auto;
+
+}
+
+/*=========================================
+PRINT CERTIFICATE
+=========================================*/
+
+@media print{
+
+body{
+
+    background:#fff;
+
+}
+
+.lesson,
+.quiz-section,
+.graduate-dashboard,
+.lesson-navigation,
+.print-certificate,
+.download-certificate,
+.academy-home{
+
+    display:none !important;
+
+}
+
+.certificate-page{
+
+    display:block !important;
+    width:100%;
+    margin:0;
+
+}
+
+.certificate{
+
+    border:8px solid #b8860b;
+    box-shadow:none;
+    page-break-inside:avoid;
+
+}
+
+}
+
+/*=========================================
+TABLETS
+=========================================*/
+
+@media(max-width:900px){
+
+.video-wrapper iframe{
+
+    height:450px;
+
+}
+
+.signature-area{
+
+    flex-direction:column;
+
+}
+
+.student-name{
+
+    min-width:100%;
+    font-size:30px;
+
+}
+
+}
+
+/*=========================================
+PHONES
+=========================================*/
+
+@media(max-width:600px){
+
+body{
+
+    font-size:16px;
+
+}
+
+.lesson,
+.quiz-section,
+.academy-section,
+.certificate,
+.graduate-dashboard{
+
+    padding:20px;
+
+}
+
+.video-wrapper iframe{
+
+    height:250px;
+
+}
+
+.lesson-navigation{
+
+    flex-direction:column;
+    gap:15px;
+
+}
+
+.btn-next,
+.btn-previous,
+.submit-quiz,
+.complete-lesson,
+.print-certificate,
+.download-certificate,
+.academy-home{
+
+    width:100%;
+
+}
+
+h1{
+
+    font-size:30px;
+
+}
+
+h2{
+
+    font-size:24px;
+
+}
+
+.student-name{
+
+    font-size:24px;
+
+}
+
+.score-circle{
+
+    width:130px;
+    height:130px;
+    font-size:24px;
+
+}
+
+}
+/*=========================================
+PART 4
+PROFESSIONAL FINISHING STYLES
+=========================================*/
+
+/* Fade In Animation */
+
+@keyframes fadeIn{
+
+    from{
+        opacity:0;
+        transform:translateY(20px);
+    }
+
+    to{
+        opacity:1;
+        transform:translateY(0);
+    }
+
+}
+
+.lesson,
+.quiz-section,
+.academy-section,
+.certificate-page,
+.graduate-dashboard{
+
+    animation:fadeIn .6s ease;
+
+}
+
+/*=========================================
+HOVER EFFECTS
+=========================================*/
+
+.lesson:hover,
+.quiz-section:hover,
+.dashboard-card:hover,
+.lesson-card:hover,
+.detail-box:hover{
+
+    transform:translateY(-4px);
+    transition:.3s;
+    box-shadow:0 12px 30px rgba(0,0,0,.15);
+
+}
+
+.video-wrapper{
+
+    transition:.3s;
+
+}
+
+.video-wrapper:hover{
+
+    transform:scale(1.01);
+
+}
+
+.lesson-image img{
+
+    transition:.35s;
+
+}
+
+.lesson-image img:hover{
+
+    transform:scale(1.02);
+
+}
+
+/*=========================================
+BUTTON EFFECTS
+=========================================*/
+
+.btn-next,
+.btn-previous,
+.submit-quiz,
+.complete-lesson,
+.print-certificate,
+.download-certificate,
+.academy-home{
+
+    transition:.3s;
+    letter-spacing:.3px;
+
+}
+
+.btn-next:hover,
+.btn-previous:hover,
+.submit-quiz:hover,
+.complete-lesson:hover,
+.print-certificate:hover,
+.download-certificate:hover,
+.academy-home:hover{
+
+    transform:translateY(-3px);
+
+}
+
+/*=========================================
+INPUTS
+=========================================*/
+
+input[type="text"]{
+
+    width:100%;
+    max-width:500px;
+    padding:15px;
+    border:2px solid #d6d6d6;
+    border-radius:8px;
+    font-size:18px;
+    margin:20px auto;
+    display:block;
+
+}
+
+input[type="text"]:focus{
+
+    border-color:#0d47a1;
+    outline:none;
+
+}
+
+/*=========================================
+TABLES
+=========================================*/
+
+table{
+
+    width:100%;
+    border-collapse:collapse;
+    margin:30px 0;
+
+}
+
+table th{
+
+    background:#0d47a1;
+    color:#fff;
+    padding:15px;
+
+}
+
+table td{
+
+    border:1px solid #ddd;
+    padding:15px;
+
+}
+
+table tr:nth-child(even){
+
+    background:#f8f8f8;
+
+}
+
+/*=========================================
+BLOCKQUOTES
+=========================================*/
+
+blockquote{
+
+    background:#f7f9ff;
+    border-left:6px solid #b8860b;
+    padding:25px;
+    border-radius:10px;
+    margin:30px 0;
+
+}
+
+/*=========================================
+SCROLLBAR
+=========================================*/
+
+::-webkit-scrollbar{
+
+    width:10px;
+
+}
+
+::-webkit-scrollbar-track{
+
+    background:#ececec;
+
+}
+
+::-webkit-scrollbar-thumb{
+
+    background:#0d47a1;
+    border-radius:20px;
+
+}
+
+::-webkit-scrollbar-thumb:hover{
+
+    background:#b8860b;
+
+}
+
+/*=========================================
+SELECTION
+=========================================*/
+
+::selection{
+
+    background:#0d47a1;
+    color:white;
+
+}
+
+/*=========================================
+FOOTER
+=========================================*/
+
+footer{
+
+    text-align:center;
+    padding:40px;
+    color:#666;
+    font-size:15px;
+
+}
+
+/*=========================================
+PRINT IMPROVEMENTS
+=========================================*/
+
+@page{
+
+    size:landscape;
+    margin:.5in;
+
+}
+
+/*=========================================
+CERTIFICATE NAME
+=========================================*/
+
+#certificateStudentName{
+
+    color:#0d47a1;
+    font-size:42px;
+    font-weight:bold;
+    text-transform:uppercase;
+    letter-spacing:2px;
+
+}
+
+/*=========================================
+SUCCESS COLORS
+=========================================*/
+
+.success{
+
+    color:#198754;
+
+}
+
+.warning{
+
+    color:#ffc107;
+
+}
+
+.error{
+
+    color:#dc3545;
+
+}
+
+/*=========================================
+VIDEO RESPONSIVE
+=========================================*/
+
+iframe{
+
+    max-width:100%;
+
+}
+
+/*=========================================
+END OF STYLESHEET
+=========================================*/
